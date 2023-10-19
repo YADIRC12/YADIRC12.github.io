@@ -1,0 +1,114 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body,
+html {
+    background-image: url(img/bgbergerak8.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+/* navbar blur start */
+
+.navbar {
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.274);
+
+}
+
+
+
+/* navbar blur end */
+
+
+
+/* index.html */
+/* container start */
+/* text login start */
+
+
+.text {
+    text-shadow: 0 0 5px #000000b7, 0 0 10px #000000ab, 0 0 15px#0000009d, 0 0 20px #000000;
+}
+
+/* text login end */
+/* wrapper start */
+.wrapper {
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+
+/* wrapper end */
+
+.logohotel {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    /* Menerapkan border-radius bulat */
+
+
+    object-fit: cover;
+    /* Memastikan gambar mencakup kontainer bulat */
+}
+
+.texth2 {
+    text-shadow: 0 0 5px #000000b7, 0 0 10px #000000ab, 0 0 15px#0000009d, 0 0 20px #000000;
+    text-align: center;
+}
+
+.textlogin {
+    margin-top: 2rem;
+    text-shadow: 0 0 5px #000000b7, 0 0 10px #000000ab, 0 0 15px#0000009d, 0 0 20px #000000;
+}
+
+.login {
+    max-width: max-content;
+    /* border start */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(5px);
+    margin-top: 2rem;
+    /* border end */
+
+
+
+
+}
+
+
+
+/* container end */
+
+/* reviewkamar.html */
+/* container start */
+/* wrapper start */
+
+.card {
+    width: 18rem;
+    margin-right: 10px;
+    /* Mengatur margin antara kartu */
+}
+
+/* wrapper end */
+/* container end */
+
+
+/* fasilitas start */
